@@ -36,11 +36,12 @@ El objetivo consiste en implementar un **Algoritmo Genético** para resolver el 
 # Estructura del proyecto
 
 ```text
+data/
+docs/
 include/
 src/
-data/
 results/
-informe/
+
 ```
 
 ---
@@ -117,6 +118,7 @@ Directiva utilizada:
 # Autores
 
 Espinoza Benavente, Hector
+
 Inga Chavez, Jorly
 
 Curso: Programación Paralela
