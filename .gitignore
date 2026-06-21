@@ -1,0 +1,13 @@
+*.exe
+
+*.o
+
+*.obj
+
+*.log
+
+.vscode/ipch
+
+.vscode/*.db
+
+results/*.csv
