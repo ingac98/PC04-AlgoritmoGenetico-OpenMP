@@ -1,0 +1,15 @@
+#----------------------------------------
+# Algoritmo Genético
+#----------------------------------------
+
+PopulationSize=1000
+
+Generations=500
+
+CrossoverRate=0.80
+
+MutationRate=0.10
+
+TournamentSize=3
+
+Threads=8

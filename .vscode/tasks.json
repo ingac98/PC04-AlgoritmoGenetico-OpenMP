@@ -1,0 +1,26 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Build OpenMP",
+            "type": "shell",
+            "command": "g++",
+            "args": [
+                "-std=c++17",
+                "-fopenmp",
+                "-I",
+                "include",
+                "src/*.cpp",
+                "-o",
+                "genetic.exe"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "problemMatcher": [
+                "$gcc"
+            ]
+        }
+    ]
+}
